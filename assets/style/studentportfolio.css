@@ -3,6 +3,12 @@
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	/*background-color: #666;*/
+	background-color: #38C5F5;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 6px;
+color: #fff;
+  text-align: center;
+  text-shadow:  2px 2px #000;
 	}
 
 #container {
@@ -78,4 +84,28 @@ p {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+#gitHeader
+{
+ max-width:30%;
+ border-left: 20px solid #00427E;
+    border-right: 20px solid #00427E;
+    max-height: 50vh;
+    width: 100vw;
+    border-radius: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+
+ #header-text
+{
+    font-size: 52px;
+   color: #fff;
+   letter-spacing: 6px;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow:  2px 2px #000;
 }
