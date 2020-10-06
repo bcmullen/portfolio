@@ -129,3 +129,8 @@ p {
 .tab button:hover {
     background-color: #38C5F5;
 }
+
+elevatorBlock
+{
+  background-color:rgba(255,0,0,0.3);
+}
