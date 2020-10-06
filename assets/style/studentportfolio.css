@@ -60,9 +60,7 @@ p {
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
+
 
 /* Create an active/current tablink class */
 .tab button.active {
@@ -115,4 +113,19 @@ p {
 {
     border-radius: 15px;
     size: 60%;
+}
+.tablinks
+{
+    margin: 5px;
+    border-radius: 15px;
+  
+}
+
+.tablinks:hover
+{
+  color: #fff;
+  
+}
+.tab button:hover {
+    background-color: #38C5F5;
 }
