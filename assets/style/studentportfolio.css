@@ -132,7 +132,7 @@ p {
 
 .elevatorBlock
 {
-  background-color:rgba(116,0,166,0.60);
+  background-color:rgba(116,0,166,0.80);
   border-radius: 15px;
 }
 p.elevatorSpeech
@@ -142,6 +142,6 @@ p.elevatorSpeech
 }
 .elevatorBlock:hover
 {
-    background-color:rgba(116,0,166,0.80);
-    transition-delay: 2s;
+   
+  background-color:rgba(116,0,166,0.99);
 }
