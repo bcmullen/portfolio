@@ -171,7 +171,21 @@ a:visited
     color: #9465B8;
 }
 
-@media (min-width: 1200px)
+
+ul
+{
+    list-style-type:none;
+    
+} 
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+@media (min-width: 1200px){
 .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 600px;
+}
+
 }
