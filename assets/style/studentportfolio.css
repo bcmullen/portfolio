@@ -43,7 +43,7 @@ p {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: none;
     background-color: #f1f1f1;
 }
 
@@ -71,7 +71,7 @@ p {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+  
     border-top: none;
 }
 
@@ -147,8 +147,9 @@ p {
   background-color: #004F8C;
   border-radius: 15px;
   font: black;
- font-weight: 20;
+ font-weight: 10;
  font-size: 18px;
+ text-shadow: 5px 5px 2.8px #000000;
 }
 p.elevatorSpeech
 {
@@ -168,4 +169,9 @@ li.tablinks
 a:visited
 {
     color: #9465B8;
+}
+
+@media (min-width: 1200px)
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 600px;
 }

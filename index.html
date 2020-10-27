@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/style/studentportfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <ulclass="tab">
             <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
             <button class="tablinks"><a href= "resume.html" id="defaultOpen">Resume</a></button>
-            <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+           <button class="tablinks " onclick="openTab(event, 'Skills')">Skills</button>
             <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
             <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
             <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
@@ -33,17 +34,20 @@
         </ul>
 
         <!-- Begin Home Section -->
-        <div id="Home" class="tabcontent">
+        <div id="Home" class="tabcontent" style="display: block;">
               
-        </div>
+        
+         
         <div class ="elevatorBlock">
        <p class="elevatorSpeech">I am creatively and techincally driven.  Working in web development and design is not just my trade of choice,
        it is also my passion.  I love to solve complex problems and find new creative ways to do my work.    
        I am a self-starter, and if there is something new to learn, I am quick to get moving on it.  Never arrive;
        always grow. 
        </p>
-       </div>
-<img class ="headShot" src="assets/images/Brian_Mullen_Headshot.jpg"><img>
+         </div>
+         <img class ="headShot" src="assets/images/Brian_Mullen_Headshot.jpg"><img>
+      </div>
+    <div>
         <!-- Begin Skills Section -->
         <div id="Skills" class="tabcontent">
             <h2>Skills</h2>
