@@ -59,10 +59,10 @@ ul.topnav li a:hover:not(.active) {background-color: #111;}
 
 ul.topnav li a.active {background-color: #4CAF50;}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.resume {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
+  ul.topnav li.resume, 
   ul.topnav li {float: none;}
 }
 
@@ -115,14 +115,7 @@ flex-direction: row;
 
 /* REMOVE THIS, USE YOUR OWN  */
 
-.dummy_page {
-  height: 200px;
-  width: 100%;
-  background-color: #f0f0f0;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 60px 0px;
-}
+
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
   width: 100%;
@@ -236,3 +229,53 @@ height: 5%;
 width: 5%;
 margin-bottom: 50px;
 }
+
+#unitConvert
+{
+margin-top: 35px;
+  margin-right: 125px;
+    margin-left: auto;
+  padding: 30px;
+  background-color: #241847;
+    color: white;
+    font-size: 32px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+     text-align:center;
+}
+#circle
+{
+  margin-top: 35px;
+  margin-right: auto;
+    margin-left:125px;
+  padding: 30px;
+  background-color: #241847;
+    color: white;
+    font-size: 32px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+     text-align:center;
+}
+
+#circle:hover:not(.active) {background-color:#7F83D9;}
+#unitConvert:hover:not(.active) {background-color:#7F83D9;}
+
+.formlabel{
+        
+
+       text-align: right;
+    }
+
+    .error {
+        color: red;
+        padding-left: 5px;
+    }
+    
+    #diameter
+    {
+     margin-left: 0px;
+    }
+    
+    .form-all, .form-label-left
+    {
+      margin-left: auto;
+        margin-right: auto;
+    }

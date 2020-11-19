@@ -1,0 +1,78 @@
+
+<!--Professor Wallace, this is what I have been working on.  I just resubmitted this on thursday november 7th-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Brian Mullen</title>
+    <meta name="description" content="Your Description">
+    <meta name="keywords" content="Your, Key, Words">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+    <form id="ValueForm" onsubmit="return false">
+    <div class="formcontainer">
+        <h1>Currency Value History</h1>
+        <fieldset id="detail">
+            <br>
+        
+        <label class="formlabel">Base Currency: </label>
+            <select name="selBase" id="basecurrency"                
+                    data-rule-required="true" data-msg-required="Base Currency is Required">
+                <option value="">Select Base Currency</option>
+                <option value="USD">United States Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Japanese Yen</option>
+                <option value="GBP">Great Britain Pound</option>
+                <option value="AUD">Australian Dollar</option>
+            </select>
+        <label for="selBase" class="error"></label>
+        <span id="selBaseError"></span>
+        <br>
+            
+        <label class="formlabel">Convert To: </label>
+            <select name="selConvert" id="convertcurrency"                
+                    data-rule-required="true" data-msg-required="Convert Currency is Required">
+                <option value="">Select Base Currency</option>
+                <option value="USD">United States Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Japanese Yen</option>
+                <option value="GBP">Great Britain Pound</option>
+                <option value="AUD">Australian Dollar</option>
+            </select>
+        <label for="selConvert" class="error"></label>
+        <span id="selConvertError"></span>
+        <br>
+            
+        <label for="FromDate" class="formlabel">From Date: </label>
+        <input type="date" id="FromDate" name="FromDate"
+               data-rule-required="true"  data-msg-required="From Date is Required">
+        <label for="FromDate" class="error" id="FromDateError"></label>
+        <br>
+            
+        <label for="ToDate" class="formlabel">To Date: </label>
+        <input type="date" id="ToDate" name="ToDate"
+               data-rule-required="true"  data-msg-required="To Date is Required">
+        <label for="ToDate" class="error" id="ToDateError"></label>
+        <br>
+            
+        <label for="ajaxresult" class="formlabel">Result: </label>
+        <span id="ajaxresult"></span>
+        <br>
+        
+        <input type="submit" value="Show Results" name="Show Results" onclick="calculate()">
+        <input type="submit" value="Clear Form" name="Clear Form" onclick="clearForm()">
+        
+        <canvas id="chartjs-0" width="600" height="600" style="display: block; height: 400px; width: 400px;"></canvas>
+        </fieldset>
+    </div>
+    </form>
+<script src="assets/scripts/index.js"></script>
+  </body>
+</html>
