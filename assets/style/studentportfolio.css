@@ -26,7 +26,7 @@ body
     margin-right: auto;
     text-align:center;
     display: inline-block;
-     width: 1000px;
+     width: 800px;
 }
 
 .headShot
@@ -176,13 +176,13 @@ justify-content: center;
   clear: both;
 }
 @media only screen and (min-width: 1280px) {
-  .contain {
+  .elevatorSpeech .contain {
     width: 1200px;
     margin: 0 auto;
   }
 }
 @media only screen and (max-width: 1139px) {
-  .contain .social {
+ .elevatorSpeech .contain .social {
     width: 1000px;
     display: block;
   }
@@ -191,32 +191,33 @@ justify-content: center;
   }
 }
 @media only screen and (max-width: 950px) {
-  .footer .col {
+  .elevatorSpeech .footer .col {
     width: 33%;
   }
-  .footer .col h1 {
+  .elevatorSpeech .footer .col h1 {
     font-size: 14px;
   }
-  .footer .col ul li {
+  .elevatorSpeech .footer .col ul li {
     font-size: 13px;
   }
 }
 @media only screen and (max-width: 500px) {
-    .footer .col {
+    .elevatorSpeech .footer .col {
       width: 50%;
     }
-    .footer .col h1 {
+    .elevatorSpeech .footer .col h1 {
       font-size: 14px;
     }
-    .footer .col ul li {
+    .elevatorSpeech .footer .col ul li {
       font-size: 13px;
     }
 }
 @media only screen and (max-width: 340px) {
-  .footer .col {
+  .elevatorSpeech .footer .col {
     width: 100%;
   }
 }
+*/
 #socialStuff
 {
   
@@ -318,4 +319,10 @@ margin-top: 35px;
   flex: 55%;
   margin-top:0px;
 }
+ }
+ 
+ .elevatorBlock
+ {
+   justify-content: center;
+  display: flex;
  }
