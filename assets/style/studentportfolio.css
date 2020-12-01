@@ -326,3 +326,8 @@ margin-top: 35px;
    justify-content: center;
   display: flex;
  }
+ 
+ #resumeImg
+ {
+   width: 80%;
+ }
