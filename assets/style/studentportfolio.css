@@ -331,3 +331,13 @@ margin-top: 35px;
  {
    width: 80%;
  }
+ #AIPL
+ {
+   margin-left: 0px;
+      margin-right: auto;
+ margin-bottom: 5px;
+   max-width:35%;
+ border-radius: 30px;
+  flex: 50%;
+
+ }
