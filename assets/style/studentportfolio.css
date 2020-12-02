@@ -309,18 +309,21 @@ margin-top: 35px;
    max-width:20%;
  border-radius: 55px;
   flex: 40%;
+  width: 332.39px;
 }
  }
  
  @media only screen and (max-width: 1000px) {
 #river{
   margin-left: 0px;
+  margin-top: 15px;
       margin-right: auto;
  margin-bottom: 55px;
    max-width:20%;
  border-radius: 25px;
   flex: 40%;
   margin-top:0px;
+  width: 332.39px;
 }
  }
  
@@ -336,11 +339,15 @@ margin-top: 35px;
  }
  #AIPL
  {
-   margin-left: 0px;
+   margin-left: 25px;
       margin-right: auto;
  margin-bottom: 5px;
-   max-width:35%;
- border-radius: 30px;
-  flex: 50%;
-
+  margin-top: 0px;
+   max-width:20%;
+ border-radius: 10px;
+  flex: 40%;
+width: 332.39px;
+height: 198px;
  }
+ 
+ 
