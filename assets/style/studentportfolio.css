@@ -347,7 +347,46 @@ margin-top: 35px;
  border-radius: 10px;
   flex: 40%;
 width: 332.39px;
-height: 198px;
+height: 260px;
  }
  
- 
+.resumePic
+{
+  width: 60%;
+}
+.resumeLink
+{
+  
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #4CAF50;
+  
+    color: white;
+    font-size: 28px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+     text-align:center;
+}
+
+.resumeLink
+{
+  
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #4CAF50;
+  
+    color: white;
+    font-size: 28px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+     text-align:center;
+}
+
+
+.resumeLink:hover:not(.active) {background-color: #1E233B; color: white;}
+
+
+a.resumeLink:visited 
+{
+  
+  color: white;
+  background-color: #1E233B;
+}
